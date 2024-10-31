@@ -1,0 +1,103 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+div {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Menu */
+nav {
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+    .menu li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 15px;
+        transition: background-color 0.3s;
+    }
+
+        .menu li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+#ingredients p, #steps p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* List Styles */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+    ul li {
+        margin: 5px 0;
+    }
+
+    /* Step-by-Step Number Styling */
+    ol li::marker {
+        font-style: italic;
+        color: #555;
+    }
+
+/* Link Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+
